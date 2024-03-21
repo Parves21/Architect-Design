@@ -297,12 +297,19 @@ footer {
         display: block;
         height: 100%;
         width: 100%;
-        margin: 10px;
     }
 
     .header-section-image img {
         border: none;
         border-radius: 5px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav-content-section {
+        display: flex;
+        gap: 15px;
+        align-items: center;
     }
 
     /* Feature Section Add */
@@ -334,9 +341,10 @@ footer {
 
     #position-button{
         position: relative; 
-        bottom: 40px; 
-        left: 270px;
-        padding: 20px;         
+        right: 0px;
+        bottom: 0px;
+        padding: 20px;  
+        margin-top: 10px;       
     }
 
     /* Some Fact */
