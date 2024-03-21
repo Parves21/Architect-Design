@@ -9,6 +9,13 @@
 }
 
 /* Header in Nav Section */
+.navber-architect-design a{
+    text-decoration: none;
+    color: #000000;
+}
+.navber-architect-design a:hover{
+    text-shadow: 2px 2px 2px #f19329;
+}
 nav {
     display: flex;
     justify-content: space-around;
@@ -20,6 +27,33 @@ nav {
 .nav-content-section {
     display: flex;
     gap: 30px;
+    align-items: center;
+}
+
+.header-section-home {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.header-section-shoping {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.header-section-alert {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+/* .header-section-alert span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: black;
+    font-weight: 700;
+} */
+.header-section-login{
+    display: flex;
+    gap: 5px;
     align-items: center;
 }
 
@@ -40,6 +74,9 @@ nav {
     border: none;
     border-radius: 5px;
     font-weight: 900;
+
+}
+.Explore-More-button:hover {
     box-shadow: 2px 2px 2px grey;
 
 }
@@ -137,10 +174,6 @@ nav {
     border-radius: 5px;
     text-align: center;
 
-}
-.some-fact-div-section div img{
-    height: 50px;
-    width: 50px;
 }
 
 /* Our-Sponser-Section */
