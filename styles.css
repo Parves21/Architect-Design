@@ -152,6 +152,13 @@ nav {
     border-left: 2px solid red;
 }
 
+#position-button{
+    position: relative; 
+    bottom: 40px; 
+    right: 40px; 
+    padding: 20px;         
+}
+
 .feature-will-love-textAlign-add {
     padding: 10px 50px 10px 10px;
     text-align: justify;
@@ -323,6 +330,13 @@ footer {
         flex-direction: column-reverse;
         margin: 20px 30px;
         gap: 10px;
+    }
+
+    #position-button{
+        position: relative; 
+        bottom: 40px; 
+        left: 270px;
+        padding: 20px;         
     }
 
     /* Some Fact */
